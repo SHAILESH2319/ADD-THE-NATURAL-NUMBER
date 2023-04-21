@@ -1,0 +1,131 @@
+REM   Script: STATION
+REM   STATION
+
+CREATE TABLE STATS 
+( 
+    ID Number, 
+    MONTH Number, 
+    TEMP_F Number, 
+    RAIN_I Number 
+);
+
+CREATE TABLE STATS 
+( 
+    ID Number, 
+    MONTH Number, 
+    TEMP_F Number, 
+    RAIN_I Number 
+);
+
+INSERT INTO STATS VALUES 
+(13,1,57.4,.31);
+
+INSERT INTO STATS VALUES 
+(13,7,91.7,5.15);
+
+INSERT INTO STATS VALUES 
+(44,1,27.3,.18);
+
+INSERT INTO STATS VALUES 
+(44,7,74.8,2.11);
+
+INSERT INTO STATS VALUES 
+(66,1,6.7,2.1);
+
+INSERT INTO STATS VALUES 
+(66,7,65.8,4.52);
+
+TRUNCATE TABLE STATS
+
+
+INSERT INTO STATS VALUES 
+(13,1,57.4,.31);
+
+INSERT INTO STATS VALUES 
+(13,7,91.7,5.15);
+
+INSERT INTO STATS VALUES 
+(44,1,27.3,.18);
+
+INSERT INTO STATS VALUES 
+(44,7,74.8,2.11);
+
+INSERT INTO STATS VALUES 
+(66,1,6.7,2.1);
+
+INSERT INTO STATS VALUES 
+(66,7,65.8,4.52);
+
+SELECT*FROM STATS;
+
+INSERT INTO Station VALUES 
+(13, 'PHOENIX','AZ',33,112);
+
+INSERT INTO Station VALUES 
+(44,'DENVER','CO',40,105);
+
+INSERT INTO Station VALUES 
+(66,'CARIBOU','ME',47,68);
+
+SELECT *FROM STATION;
+
+SELECT NAME AS CITY FROM STATION;
+
+CREATE table Station 
+( 
+    ID number, 
+    CITY CHAR(20), 
+    STATE CHAR(2), 
+    LAT_N NUMBER, 
+    LONG_W NUMBER 
+ 
+);
+
+CREATE table Station 
+( 
+    ID number, 
+    CITY CHAR(20), 
+    STATE CHAR(2), 
+    LAT_N NUMBER, 
+    LONG_W NUMBER 
+ 
+);
+
+TRUNCATE TABLE STATION
+
+
+CREATE table Station 
+( 
+    ID number, 
+    CITY CHAR(20), 
+    STATE CHAR(2), 
+    LAT_N NUMBER, 
+    LONG_W NUMBER 
+ 
+);
+
+drop table "STATION" cascade constraints;
+
+drop table "STATION" cascade constraints;
+
+CREATE table Station 
+( 
+    ID number, 
+    CITY CHAR(20), 
+    STATE CHAR(2), 
+    LAT_N NUMBER, 
+    LONG_W NUMBER 
+ 
+);
+
+INSERT INTO Station VALUES 
+(13, 'PHOENIX','AZ',33,112);
+
+INSERT INTO Station VALUES 
+(44,'DENVER','CO',40,105);
+
+INSERT INTO Station VALUES 
+(66,'CARIBOU','ME',47,68);
+
+SELECT*FROM STATION;
+
